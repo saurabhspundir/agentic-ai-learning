@@ -17,6 +17,29 @@ conda activate venv
 conda env list
 ```
 
+## ollama local model list 
+```
+ollama list
+
+```
+
+```
+ollama run llama3.2
+```
+
+```
+ollama pull llama3.2
+```
+```
+ollama pull moondream    # try first — 1.1GB. did not work with code
+ollama pull gemma3:4b   # upgrade if needed — 2.7GB
+
+```
+
+```
+ollama rm moondream
+```
+
 ### code to downlad the zip file from deep learning notebook when downalod is not avaialble 
 
 ```
